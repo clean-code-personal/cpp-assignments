@@ -6,6 +6,8 @@ Build habits for the new C++
 
 [Encapsulate the image](https://classroom.github.com/a/SL8nhoiS)
 
+[Complete a refactor with lambda](https://classroom.github.com/a/H8XWzw-K)
+
 ## Way of working
 
 1. Click on the assignment link to open the Classroom invite. Accept the assignment to get your own repository
