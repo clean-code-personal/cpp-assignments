@@ -24,6 +24,26 @@ Scoping the internals of an Image within the Image itself - so the consumers don
 
 >Use of `shared_ptr` doesn't guarantee "no" memory leaks! You could add it in a collection and leave it there; or make a [cyclic references](https://stackoverflow.com/questions/27085782/how-to-break-shared-ptr-cyclic-reference-using-weak-ptr)
 
+## Multiple return values
+
+[Repo link](https://github.com/clean-code-personal/image-encapsulation-devdatt-ka)
+
+```cpp
+std::pair<uint16_t, uint16_t> Image::GetImageDimensions() {
+    return std::make_pair(m_columns, m_rows);
+}
+
+int ImageBrightener::BrightenWholeImage() {
+	auto [rows, columns] = m_inputImage->GetImageDimensions();
+	auto pixels = m_inputImage->AccessPixels();
+	for (int x = 0; x < rows; x++) {
+		for (int y = 0; y < columns; y++) {
+            // ...
+        }
+    }
+}
+```
+
 ## Return code from main
 
 [Repo link](https://github.com/clean-code-personal/image-encapsulation-PN-Aditya). Returning an integer from `main()` helps in conveying success/failure to the calling process.
