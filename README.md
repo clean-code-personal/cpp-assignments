@@ -6,7 +6,7 @@ Build habits for the new C++
 
 [Encapsulate the image](https://classroom.github.com/a/SL8nhoiS) and [recap](image-encapsulate-recap.md)
 
-[Complete a refactor with lambda](https://classroom.github.com/a/H8XWzw-K) amd [recap](lambda-recap.md)
+[Complete a refactor with lambda](https://classroom.github.com/a/H8XWzw-K) and [recap](lambda-recap.md)
 
 [Reduce code for a smooth read](https://classroom.github.com/a/aUU_Zink)
 
