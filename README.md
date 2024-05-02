@@ -8,7 +8,7 @@ Build habits for the new C++
 
 [Complete a refactor with lambda](https://classroom.github.com/a/H8XWzw-K) and [recap](lambda-recap.md)
 
-[Reduce code for a smooth read](https://classroom.github.com/a/aUU_Zink)
+[Reduce code for a smooth read](https://classroom.github.com/a/aUU_Zink) and [recap](reduce-recap.md)
 
 ## Way of working
 
