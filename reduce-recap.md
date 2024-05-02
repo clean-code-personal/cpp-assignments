@@ -11,7 +11,7 @@
 ```cpp
 bool BrightenWholeImage(std::shared_ptr<Image> inputImage, int& attenuatedCount, std::shared_ptr<Image> imageToAdd = nullptr); // imageToAdd must not be passed here, it's present for convention
 
- bool AddBrighteningImage(std::shared_ptr<Image> inputImage, const std::shared_ptr<Image>& imageToAdd, int& attenuatedCount);
+bool AddBrighteningImage(std::shared_ptr<Image> inputImage, const std::shared_ptr<Image>& imageToAdd, int& attenuatedCount);
 ```
 
 ## Multiple pixel processors
