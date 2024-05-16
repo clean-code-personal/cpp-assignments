@@ -10,7 +10,7 @@ Build habits for the new C++
 
 [Reduce code for a smooth read](https://classroom.github.com/a/aUU_Zink) and [recap](reduce-recap.md)
 
-[Using types for mistake-proofing](https://classroom.github.com/a/da02wIYs)
+[Using types for mistake-proofing](https://classroom.github.com/a/da02wIYs) and [recap](types-recap.md)
 
 ## Way of working
 
