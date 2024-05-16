@@ -28,3 +28,8 @@ Throwing an "exception type" (instead of a string) helps in catching specific ex
 throw std::invalid_argument("Mismatch between rows and columns.\n");
 ```
 
+## Encapsulation
+
+`attenuatedPixelCount` is a non-const reference. Maybe an opportunity for improvement.
+
+Perhaps it helps if we move it into a place where it belongs... it's the number of pixels attenuated when brightening the image. What if we keep it together with `BrightenedImage`?
